@@ -1,0 +1,117 @@
+h1 {
+    position: relative;
+    overflow: hidden;
+    padding: 1.5rem 2rem 1.5rem 130px;
+    border: 2px solid #000;
+}
+  
+h1:before {
+    position: absolute;
+    top: -150%;
+    left: -100px;
+    width: 200px;
+    height: 300%;
+    content: '';
+    -webkit-transform: rotate(25deg);
+    transform: rotate(25deg);
+    background: #000;
+}
+  
+h1 span {
+    font-size: 40px;
+    font-size: 4rem;
+    position: absolute;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    display: block;
+    padding-top: 3px;
+    padding-left: 16px;
+    color: #fff;
+}
+.gaming {
+    position: absolute;
+    top: 115px;
+    left: 5px;
+}
+
+a.twitter {
+    position: absolute;
+    top: 115px;
+    left: 265px;
+    color: aqua;
+    font-size: 32px;
+}
+.twitter-image {
+    position: absolute;
+    top: 115px;
+    left: 220px;
+}
+
+a.discord {
+    position: absolute;
+    top: 160px;
+    left: 265px;
+    color: blue;
+    font-size: 32px;
+}
+.discord-image {
+    position: absolute;
+    top: 163px;
+    left: 220px;
+}
+
+a.reddit {
+    position: absolute;
+    top: 252px;
+    left: 265px;
+    color: blueviolet;
+    font-size: 32px;
+}
+.reddit-image {
+    position: absolute;
+    top: 257px;
+    left: 220px;
+}
+
+a.discord-image-user {
+    position: absolute;
+    top: 205px;
+    left: 265px;
+    color:blue;
+    font-size: 32px;
+}
+.discord-user {
+    position: absolute;
+    top: 210px;
+    left: 220px;
+}
+
+p.lang2 {
+    position: absolute;
+    top: 295px;
+    left: 10px;
+    color: aquamarine;
+    font-size: 32px;
+}
+p.lang {
+    position: absolute;
+    top: 340px;
+    left: 10px;
+    color: aquamarine;
+    font-size: 32px;
+}
+p.jikosyokai {
+    position: absolute;
+    top: 390px;
+    left: 10px;
+    color:bisque;
+    font-size: 27px;
+}
+a.nikki {
+    position: absolute;
+    top: 300px;
+    left: 225px;
+    color: blue;
+    font-size: 32px;
+}
